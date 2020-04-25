@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "752091485354",
-    "firebase_url": "https://porandroid-6413a.firebaseio.com",
-    "project_id": "porandroid-6413a",
-    "storage_bucket": "porandroid-6413a.appspot.com"
+    "project_number": "439468177309",
+    "firebase_url": "https://wireless-project-416b1.firebaseio.com",
+    "project_id": "wireless-project-416b1",
+    "storage_bucket": "wireless-project-416b1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:752091485354:android:abbd011d21c5e7a7e62cd3",
+        "mobilesdk_app_id": "1:439468177309:android:4c23dff0367e4ef1a4a174",
         "android_client_info": {
           "package_name": "com.example.applicationwireless"
         }
       },
       "oauth_client": [
         {
-          "client_id": "752091485354-qo3p1egtu2355v5p0cj6lr7hgviik9ka.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.applicationwireless",
-            "certificate_hash": "9e39f8551aa0472949f06ce7480eb45d0ab3972f"
-          }
-        },
-        {
-          "client_id": "752091485354-qsa0jeu56i02tftvctdc78gk316hq2u7.apps.googleusercontent.com",
+          "client_id": "439468177309-km5drgah0on6aouscgc84f4v9mrd9q8h.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDQpe19Sl3i5dvarx5Fl43QvSjBg3-WtPE"
+          "current_key": "AIzaSyAi-Ok57VfYw5i9r6wJNE1X7D3Yjss0X0I"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "752091485354-qsa0jeu56i02tftvctdc78gk316hq2u7.apps.googleusercontent.com",
+              "client_id": "439468177309-km5drgah0on6aouscgc84f4v9mrd9q8h.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
