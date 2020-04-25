@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name" translatable="false">Fitd aily</string>
+    <string name="Weight">Weight</string>
+    <string name="Height">Height</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Confirmpassword">Confirmpassword</string>
+    <string name="Sex">Sex</string>
+    <string name="Email">Email</string>
+    <string name="signin">signin</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_like">Like</string>
+    <string name="menu_profile">Profile</string>
+    <string name="sign_in">sign in</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="password">Password</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="sign_up">Sign up</string>
+    <string name="username">Username</string>
+    <string name="exercises">Exercises</string>
+    <string name="summary">Summary</string>
+    <string name="add">add</string>
+    <string name="food">Food</string>
+    <string name="sign_out">Sign out</string>
+    <string name="pronthipa_khumalai" translatable="false">Pronthipa Khumalai</string>
+    <string name="cm" translatable="false">cm</string>
+    <string name="kg" translatable="false">kg</string>
+    <string name="kcals" translatable="false">Kcals</string>
+    <string name="meal">MEAL</string>
+    <string name="activity">Activity</string>
+    <string name="time">Time</string>
+    <string name="calories" translatable="false">Calories</string>
+    <string name="location">Location</string>
+    <string name="note">Note</string>
+    <string name="save">save</string>
+    <string name="type">Type</string>
+    <string name="quantity">Quantity</string>
+    <string name="search">Search</string>
+    <string name="sun">SUN\n</string>
+    <string name="mon">MON\n</string>
+    <string name="tue">TUE\n</string>
+    <string name="wed">WED\n</string>
+    <string name="thu">THU\n</string>
+    <string name="fri">FRI\n</string>
+    <string name="sat">SAT\n</string>
+    <string name="delete">Do you want to delete?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="duration">Duration</string>
+    <string name="min">Min</string>
+    <string name="total">Total</string>
+    <string name="calories_record">Calories record</string>
+    <string name="burned">Burned</string>
+    <string name="remaining">Remaining</string>
+    <string name="monthly">Monthly</string>
+    <string name="weekly">Weekly</string>
+    <string name="daily">Daily</string>
+</resources>

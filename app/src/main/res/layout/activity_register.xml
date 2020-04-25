@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signuppage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgpurple"
+    tools:context=".MainActivity">
+
+    <ImageView
+
+        android:id="@+id/fitdaily2"
+        android:layout_width="116dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/fitdaily"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="@string/sign_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password" />
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:clickable="true"
+        android:text="@string/sign_in"
+        app:layout_constraintEnd_toEndOf="@+id/signup"
+        app:layout_constraintTop_toBottomOf="@+id/signup"
+        tools:text="@string/signin"
+        android:focusable="true" />
+
+    <EditText
+        android:id="@+id/Height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/height"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/Confirmpassword"
+        app:layout_constraintTop_toBottomOf="@+id/Confirmpassword" />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Email"
+        app:layout_constraintStart_toStartOf="@+id/Email" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:ems="10"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/Email"
+        app:layout_constraintTop_toBottomOf="@+id/Email" />
+
+    <EditText
+        android:id="@+id/Confirmpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/Password"
+        app:layout_constraintTop_toBottomOf="@+id/Password" />
+
+    <EditText
+        android:id="@+id/Weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/weight"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/Height"
+        app:layout_constraintTop_toBottomOf="@+id/Height" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/summary"
+        android:title="@string/summary"
+        android:icon="@drawable/list"/>
+
+    <item
+        android:id="@+id/exercises"
+        android:title="@string/exercises"
+        android:icon="@drawable/bike"/>
+
+    <item
+        android:id="@+id/add"
+        android:title="@string/add"
+        android:icon="@drawable/ic_add_circle_black_24dp"/>
+    <item
+        android:id="@+id/food"
+        android:title="@string/food"
+        android:icon="@drawable/dinner"/>
+    <item
+        android:id="@+id/profile"
+        android:title="@string/menu_profile"
+        android:icon="@drawable/ic_profile"/>
+</menu>

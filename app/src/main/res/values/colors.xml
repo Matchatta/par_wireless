@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bgpurple">#E0E4F7</color>
+    <color name="colorPrimary">#F8F6F6</color>
+    <color name="colorPrimaryDark">#E0E4F7</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="home">#5B37B7</color>
+    <color name="like">#C9379D</color>
+    <color name="search">#E6A919</color>
+    <color name="profile">#1194AA</color>
+    <color name="black">#000000</color>
+    <color name="colorPurple">#B1BBFF</color>
+    <color name="gray">#E4E4E4</color>
+</resources>
