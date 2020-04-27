@@ -78,7 +78,24 @@ class HomeActivity : Fragment() {
     }
 
     private fun setUI(f: List<Food>, e: List<Exercises>, mul: Double) {
+        if(view != null) {
+            val calendar: Calendar = Calendar.getInstance()
+            calendar.set(date.split("/")[2].toInt(), date.split("/")[1].toInt().minus(1), date.split("/")[0].toInt())
+            current.text = SimpleDateFormat("dd, MMMM").format(calendar.time)
+            val filteredFood = f.sumByDouble { it.calories }
+            val filteredExercises = e.sumByDouble { it.calories }
+            cal.text = (((2200.0 * mul) + filteredExercises) - filteredFood).toString()
+            val total = cal.text.toString().toDouble()
+            var percent = (((2200.0 * mul) - total) / (2200.0 * mul)) * 100
+            if (percent > 100.0) {
+                percent = 100.0
             }
+            if (percent < 0) {
+                percent = 0.0
+            }
+            progressBar.progress = percent.toInt()
+            burn.text = filteredExercises.toString()
+            eaten.text = total.toString()
         }
     }
 
