@@ -2,6 +2,7 @@ package com.example.applicationwireless
 
 import android.app.DatePickerDialog
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,13 +13,13 @@ import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.fragment_summary.*
 import java.text.SimpleDateFormat
-import java.time.YearMonth
 import java.util.*
 
 class HomeActivity : Fragment() {
     val food = mutableListOf<Food>()
     val exercises = mutableListOf<Exercises>()
-    var date = "25/04/2020"
+    val calendar = Calendar.getInstance()
+    var date = SimpleDateFormat("dd/MM/yyyy").format(calendar.time)
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_summary, container, false)
     }
@@ -77,23 +78,8 @@ class HomeActivity : Fragment() {
     }
 
     private fun setUI(f: List<Food>, e: List<Exercises>, mul: Double) {
-        val calendar: Calendar = Calendar.getInstance()
-        calendar.set(date.split("/")[2].toInt(), date.split("/")[1].toInt().minus(1), date.split("/")[0].toInt())
-        current.text = SimpleDateFormat("dd, MMMM").format(calendar.time)
-        val filteredFood = f.sumByDouble { it.calories }
-        val filteredExercises = e.sumByDouble { it.calories }
-        cal.text = (((2200.0*mul)+filteredExercises) - filteredFood).toString()
-        val total = cal.text.toString().toDouble()
-        var percent = (((2200.0*mul)-total)/(2200.0*mul))*100
-        if(percent>100.0){
-            percent = 100.0
+            }
         }
-        if(percent<0){
-            percent = 0.0
-        }
-        progressBar.progress = percent.toInt()
-        burn.text = filteredExercises.toString()
-        eaten.text = total.toString()
     }
 
     private fun loadData(){
